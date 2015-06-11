@@ -11,79 +11,78 @@
       <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
     <title>Canvas Parallel Coordinates</title>
     <style type="text/css">
-
-svg {
-  font: 10px sans-serif;
-}
-
-canvas, svg {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-table, th, td
-{
-border-style:solid;
-border-right: thin double black;
-border-bottom: thin single black;
-border-left: none;
-border-top: none;
-}
-
-#chart {
-  position: relative;
-    display: block
-    width: 100%;
-    height: 500px;
-}
-
-#controls {
-  position: relative;
-    display: block
-    width: 100%;
-    height: 200px;
-}
-
-li
-{
-display: inline;
-list-style-type: none;
-padding-right: 1%;
-}
-
-#table {
-  position: relative;
-    display: block
-    width: 100%;
-    height: 300px;
-    overflow:auto
-  
-}
-.brush .extent {
-  fill-opacity: .3;
-  stroke: #fff;
-  shape-rendering: crispEdges;
-}
-
-line {
-  stroke-width: 3;
-}
-
-path {
-  stroke-width: 3;
-}
-
-.axis line, .axis path {
-  stroke-width: .5;
-  fill: none;
-  stroke: #000;
-  shape-rendering: crispEdges;
-}
-
-.axis text {
-  text-shadow: 0 1px 0 #fff;
-}
+	svg {
+	  font: 10px sans-serif;
+	}
+	
+	canvas, svg {
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+	}
+	
+	table, th, td
+	{
+	border-style:solid;
+	border-right: thin double black;
+	border-bottom: thin single black;
+	border-left: none;
+	border-top: none;
+	}
+	
+	#chart {
+	  position: relative;
+	    display: block
+	    width: 100%;
+	    height: 500px;
+	}
+	
+	#controls {
+	  position: relative;
+	    display: block
+	    width: 100%;
+	    height: 200px;
+	}
+	
+	li
+	{
+	display: inline;
+	list-style-type: none;
+	padding-right: 1%;
+	}
+	
+	#table {
+	  position: relative;
+	    display: block
+	    width: 100%;
+	    height: 300px;
+	    overflow:auto
+	  
+	}
+	.brush .extent {
+	  fill-opacity: .3;
+	  stroke: #fff;
+	  shape-rendering: crispEdges;
+	}
+	
+	line {
+	  stroke-width: 3;
+	}
+	
+	path {
+	  stroke-width: 3;
+	}
+	
+	.axis line, .axis path {
+	  stroke-width: .5;
+	  fill: none;
+	  stroke: #000;
+	  shape-rendering: crispEdges;
+	}
+	
+	.axis text {
+	  text-shadow: 0 1px 0 #fff;
+	}
 
     </style></head>
   <body>
